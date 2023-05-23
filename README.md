@@ -1,1 +1,1 @@
-# algular-blog_bootcamp-dio-ifood
+# angular-blog_bootcamp-dio-ifood
