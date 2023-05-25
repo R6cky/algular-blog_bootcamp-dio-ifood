@@ -8,5 +8,12 @@
 }
 
 .logo-ifood {
-  border: solid red;
+  width: 200px;
+  height: 100%;
+}
+
+.logo-ifood > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
