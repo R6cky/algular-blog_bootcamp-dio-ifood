@@ -1,0 +1,6 @@
+.small-cards {
+  width: 22rem;
+  height: 22rem;
+  border: solid red;
+  border-radius: 8px;
+}

@@ -1,0 +1,12 @@
+.list-card {
+  width: 90%;
+  height: 100%;
+  border: solid red;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  justify-content: center;
+  padding: 10px;
+}

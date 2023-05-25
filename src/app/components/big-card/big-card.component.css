@@ -1,0 +1,9 @@
+.big-card {
+  width: 100vw;
+  height: 500px;
+  border: solid red;
+  background-image: url("../../../../src/assets/fundo-big-card.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
