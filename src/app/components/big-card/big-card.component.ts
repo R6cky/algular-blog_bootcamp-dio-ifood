@@ -8,7 +8,4 @@ import { Input, Component } from '@angular/core';
 export class BigCardComponent {
   @Input()
   titleBigCard: string = '';
-
-  @Input()
-  contentBigCard: string = '';
 }

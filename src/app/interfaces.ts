@@ -1,4 +1,6 @@
 type tDataCard = {
+  id: string;
+  post_image: string;
   title_post: string;
   content_post: string;
   author_name: string;

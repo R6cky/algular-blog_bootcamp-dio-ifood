@@ -9,7 +9,13 @@ import { SmallCardsComponent } from './components/small-cards/small-cards.compon
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { ListCardComponent } from './components/list-card/list-card.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ViewCardComponent } from './components/view-card/view-card.component';
+import { ViewCardComponent } from './pages/view-card/view-card.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'viewCard/:id', component: ViewCardComponent },
+];
 
 @NgModule({
   declarations: [
@@ -23,7 +29,8 @@ import { ViewCardComponent } from './components/view-card/view-card.component';
     FooterComponent,
     ViewCardComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, RouterModule.forRoot(routes)],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent],
 })

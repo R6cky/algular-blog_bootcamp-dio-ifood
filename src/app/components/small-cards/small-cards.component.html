@@ -3,9 +3,7 @@
   <h2 class="title-small-card">{{ title_post }}</h2>
   <p class="content-small-card">{{ content_post }}</p>
   <span class="author-small-card">
-    <div><img src="{{ author_image }}" alt="image author" /></div>
-    <h3>{{ author_name }}</h3>
     <span>{{ post_date }}</span>
   </span>
-  <button (click)="myFn()">Ver</button>
+  <a [routerLink]="['viewCard', id]">Visualizar post</a>
 </li>
